@@ -1,6 +1,6 @@
 FROM openjdk:8-jdk-alpine
 
-ENV VERSION 2.3.1
+ENV VERSION 3.0.2
 ENV PATH ${PATH}:/etc/gatling/bin
 
 RUN wget -O /tmp/gatling-charts-highcharts-bundle-$VERSION-bundle.zip \
