@@ -8,7 +8,7 @@ This is an automated build on Dockerhub.  To build a new version, ensure that yo
     git tag 2.3.1-1.0
     git push --tags
 
-The format of the tag is `gatling version`-`Dockerfile version`.  The Gatling version is determined by the `VERSION` environment variable in the Dockerfile:
+The format of the tag is `gatling version`-`java version`-`Dockerfile version`.  The Gatling version is determined by the `VERSION` environment variable in the Dockerfile:
 
     ENV VERSION 2.3.1
 
