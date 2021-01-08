@@ -1,0 +1,6 @@
+version: v1.1.0
+
+steps:
+  - id: build-gatling-image
+    build: -t {{.Run.Registry}}/gatling:{{.Run.ID}} -t {{.Run.Registry}}/gatling:latest .
+    keep: true
