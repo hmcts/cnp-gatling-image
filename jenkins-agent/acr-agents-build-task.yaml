@@ -1,6 +1,0 @@
-version: v1.1.0
-
-steps:
-  - id: build-minimal-agent
-    build: -f minimal.Dockerfile -t {{.Run.Registry}}/gatling:{{.Run.ID}} -t {{.Run.Registry}}/jenkins/minimal-agent:latest .
-    keep: true
