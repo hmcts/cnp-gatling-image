@@ -1,7 +1,7 @@
 .DEFAULT=build
 
 build-11:
-	docker build -t hmcts/gatling:3.1.1-java-11-1.0 11/
+	docker build -t hmcts/gatling:3.1.1-java-11-1.0 .
 
 build-all: build-11
 
